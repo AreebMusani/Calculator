@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Calculator | Areeb Musani</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <div class="display">
+            <input type="text" name="res" id="result">
+        </div>
+        <div class="keys">
+            <input type="submit" onclick="getValue('7')" value="7">
+            <input type="submit" onclick="getValue('8')" value="8">
+            <input type="submit" onclick="getValue('9')" value="9">
+            <input type="submit" onclick="getValue('/')" value="/">
+            <input type="submit" onclick="getValue('4')" value="4">
+            <input type="submit" onclick="getValue('5')" value="5">
+            <input type="submit" onclick="getValue('6')" value="6">
+            <input type="submit" onclick="getValue('*')" value="*">
+            <input type="submit" onclick="getValue('1')" value="1">
+            <input type="submit" onclick="getValue('2')" value="2">
+            <input type="submit" onclick="getValue('3')" value="3">
+            <input type="submit" onclick="getValue('-')" value="-">
+            <input type="submit" onclick="clearNumber()" value="CE">
+            <input type="submit" onclick="getValue('0')" value="0">
+            <input type="submit" onclick="sum()" value="=">
+            <input type="submit" onclick="getValue('+')" value="+">
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
